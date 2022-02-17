@@ -1,0 +1,389 @@
+ html, body{
+    margin: 0px;
+    height: 100%;
+  }
+header{
+  position: static;
+
+  display: flex;
+
+  width: 100%;
+  height: 10%;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  width: 100%;
+  height: 30%;
+}
+#list{
+  display: none;
+}
+  #div1{
+    width: 50%;
+    height: 100%;
+  }
+  #div2{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+  }
+  #div3, #title{
+    text-align: center;
+    position: relative;
+    top: 25%;
+  }
+  #contatoTitle{
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+  #div4, #div5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70%;
+    height: 100%;
+  }
+  #div6{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+    width: 100%;
+    height: 60%;
+  }
+  .members{    
+    display: flex;
+    justify-content: center;
+
+    height: 50%;
+  }
+  #bg-img1, #bg-img2{
+    width: 50%;
+    height: 100%;
+  }
+  #botoes{
+    display: flex;
+    height: 5%;
+  }
+  #prod{
+    height: 100%;
+  }
+  #secao1, #secao2, #secao3, #secao4, #secao5{  
+    text-align: center;
+    border-radius: 5vh;
+    width: 300px;
+    margin: 5px;
+  }
+  #secao1, #secao2{
+    width: 33%;
+    height: 80%;
+    border-style: solid;
+    border-width: 0.1px;
+  }
+  #secao3, #secao4, #secao5{
+    border-style: none;
+    width: 33%;
+    height: 90%;
+    margin: 2%;
+
+    box-shadow: 30px 16px 16px #e6e6e6;
+  }
+  #prod, #MVV, #div4, #div5, #contato, #intro{
+    display: flex;
+    align-items: center;
+  }
+  #contato{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+
+    height: 100%;
+    width: 95%;
+
+    border-radius: 25px;
+
+    box-shadow: 5px 5px 5px #cccccc, -5px 5px 5px #cccccc;
+
+  }
+  #intro{
+    margin-left: 20px;
+    margin-top: 0px;
+    height: 100%;
+  }
+  #MVV{
+    left: 150px;
+    height: 70%;
+  }
+  #MVVtitle, #contat{
+    width: 100%;
+    height: 50%;
+  }
+
+  /* #contat{
+    border-style: solid;
+  } */
+  
+  #team{
+    width: 100%;
+    height: 30%;
+  }
+  #dados, #msg{
+    margin: 2.5px;
+
+    height: 100%;
+    width: 100%;
+  }
+  #Capa_1{
+    width: 70%;
+    }
+  #img2,#img3{
+    background-size: cover;
+    height: 100%;
+  }
+  #img2{
+    background-image: url("https://www.bsafer.io/wp-content/uploads/2021/04/Banner-Top-01-1.png");
+  }
+  #img3{
+    background-image: url("https://www.bsafer.io/wp-content/uploads/2021/04/Banner-Top-Loto.png");
+    height: 100%;
+  }
+  #business, #startup, #diamond{
+    width: 70%;
+    height: 35%;
+  }
+  /* #img3, #img4{
+    margin: 5px;
+    width: 133px;
+
+    position: relative;
+    top: 10%;
+  } */
+
+  #titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7, #titulo8, #titulo9, #titulo10{
+    font-weight: 900;
+  }
+  #titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo9, #titulo10{
+    color: #595959;
+  }
+  #titulo1, #titulo2{
+    font-size: 15vh;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  #titulo1, #titulo5{
+    letter-spacing: -2px;
+  }
+  #titulo1, #titulo2, #titulo5, #titulo6, #titulo7, #titulo8, #titulo9, #titulo10{
+    font-family: 'Oswald';
+  }
+  #titulo5, #titulo9, #titulo10{
+    font-size: 10vh;
+  }
+  #titulo3, #titulo4{
+  position: relative;
+  top: 20%;
+  }
+  #titulo6, #titulo7, #titulo8{
+    font-size: 5vh;
+  }
+  #name1, #name2, #name3, #name4, #name5, #name6{
+    margin: 5px;
+    font-family: "Raleway", arial;
+    font-size: 4vh;
+    
+    /* height: 60px; */
+
+  }
+  #nome, #email, #assunto, #mensagem{
+    margin: 5px;
+    font-family: "Raleway", arial;
+    font-size: 3.5vh;
+  }
+  #chg1, #chg2, #chg3, #chg4, #chg5, #chg6{
+    font-family: "Raleway", arial;
+    font-size: 2.5vh;
+    font-style: italic;
+    color: #AAA;
+    height: 30px;
+  }
+  #memb1, #memb2, #memb3, #memb4, #memb5, #memb6{
+    text-align: center;
+    border-radius: 15%;
+    border-style: solid;
+    width: 30%;
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #texto1, #texto2, #texto3, #texto4, #texto5, #texto6, #texto7{
+    font-family: 'Lato';
+    font-size: 2.5vh;
+    font-weight: lighter;
+  }
+  #btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7{
+    border: none;    
+      
+    font-family: 'Rubik';
+  }
+  .btn-ry, .btn-bw, .card{
+    transition: background-color 0.2s cubic-bezier(1, 1, 1, 1);
+	  transition-delay: 0s;
+  }
+
+  /* .memb{
+    transition: box-shadow 0.6s cubic-bezier(1, 1, 1, 1);
+	  transition-delay: 0s;
+  } */
+  
+  .btn-ry{
+    cursor: pointer;
+  }
+  #btn1, #btn7{
+    width: 20%;
+    border-radius: 5vh;
+
+    font-size: 2vh;
+    
+    color: white;
+    background-color: #f8143c;
+  }
+  #btn1{
+    height: 8%;
+  }
+  #btn7{
+    height: 13%;
+  }
+  #btn2, #btn3, #btn4, #btn5, #btn6{
+    /* width: 15%; */
+
+    height: 100%;
+
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 5vh;
+
+    font-size: 2vh;
+
+    margin-left: 2%;
+    margin-right: 2%;
+
+    background-color: #ffffff;
+  }
+  #btn7{
+    margin-top: 10px;
+  }
+  #menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3.5%;
+    height: 70%;
+    
+    border-radius: 100%;
+    
+    background-color: #f8143c; 
+    
+    position: relative;
+    left: 83%;
+    top: 15%;
+  }
+  #logo-hd{
+    position: relative;
+    /* left: 1.5%; */
+
+    width: 12%;
+    height: 100%;
+  }
+  #logo-ft{
+    width: 23%;
+    height: 42%;
+
+    position: relative;
+    left: 1.5%;
+  }
+  #lg-bs, #lg-bs-w{
+    width: 100%;
+    height: 100%;
+  }
+  #pht1, #pht2, #pht3, #pht4, #pht5, #pht6{
+    border-radius: 100%;
+    width: 50%;
+    
+    /* margin: 10px; */
+
+  }
+  #txt_nome, #txt_email, #txt_assunto, #txt_mensagem{
+    width: 80%;    
+    border-style: solid;
+    border-width: 0.5vh;
+    margin: 0 5px 0 5px;
+  }
+  #txt_nome, #txt_email, #txt_assunto{
+    border-radius: 10vh;
+    height: 80%;
+  }
+  #txt_assunto{
+    margin-bottom: 2px;
+  }
+  #txt_mensagem{
+    border-radius: 2vh; 
+    height: 80%;
+  }
+  #txt1, #txt2, #txt3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 10%;
+  }
+  #txt4{
+    display: flex;
+    justify-content: center;
+
+    height: 80%;
+  }
+  #footer{
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 2vh;
+
+    background-color: #f8143c;
+  }
+
+  .separador{
+    border-style: solid;
+    border-width: 3px;
+
+    width: 100px;
+    height: 0.1px;
+  }
+
+  #top, #bottom, #left, #right {
+    background: #a5ebff;
+    position: fixed;
+    }
+    #left, #right {
+      top: 0; bottom: 0;
+      width: 5px;
+      }
+      #left { left: 0; }
+      #right { right: 0; }
+      
+    #top, #bottom {
+      left: 0; right: 0;
+      height: 5px;
+      }
+      #top { top: 0; }
+      #bottom { bottom: 0; }
