@@ -148,10 +148,10 @@ footer{
     height: 100%;
   }
   #img2{
-    background-image: url("https://www.bsafer.io/wp-content/uploads/2021/04/Banner-Top-01-1.png");
+    background-image: url(../img/Banner-Top-01-1.png);
   }
   #img3{
-    background-image: url("https://www.bsafer.io/wp-content/uploads/2021/04/Banner-Top-Loto.png");
+    background-image: url(../img/Banner-Top-Loto.png);
     height: 100%;
   }
   #business, #startup, #diamond{
