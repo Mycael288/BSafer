@@ -3,7 +3,7 @@
     height: 100%;
   }
 header{
-  position: static;
+  /* position: static; */
 
   display: flex;
 
@@ -23,6 +23,11 @@ footer{
   display: none;
 }
   #div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     width: 50%;
     height: 100%;
   }
@@ -63,7 +68,11 @@ footer{
 
     height: 50%;
   }
-  #bg-img1, #bg-img2{
+  #bg-img2{
+    width: 50%;
+    height: 100%;
+  }
+  #bg-img1{
     width: 50%;
     height: 100%;
   }
@@ -152,11 +161,12 @@ footer{
     width: 70%;
     }
   #img2,#img3{
-    background-size: cover;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   #img2{
     background-image: url(../img/Banner-Top-01-1.png);
+    height: 100%;
   }
   #img3{
     background-image: url(../img/Banner-Top-Loto.png);
@@ -186,10 +196,11 @@ footer{
 
     margin: 0;
 
+    width: 75%;
+  }
+  #titulo2{
     position: relative;
     left: 5%;
-
-    width: 75%;
   }
   #titulo1, #titulo5{
     letter-spacing: -2px;
@@ -240,7 +251,7 @@ footer{
   .texto{
     width: 75%;
   }
-  #txts-prod, #txts-intro{
+  #txts-prod{
     position: relative;
     left: 5%;
   }
