@@ -69,7 +69,9 @@ footer{
   }
   #botoes{
     display: flex;
-    height: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 15%;
   }
   #prod{
     height: 100%;
@@ -87,7 +89,10 @@ footer{
     border-width: 0.1px;
   }
   #secao3, #secao4, #secao5{
-    border-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     width: 33%;
     height: 90%;
     margin: 2%;
@@ -97,6 +102,9 @@ footer{
   #prod, #MVV, #div4, #div5, #contato, #intro{
     display: flex;
     align-items: center;
+  }
+  #MVV{
+    align-items: stretch;
   }
   #contato{
     margin-left: 10px;
@@ -175,7 +183,13 @@ footer{
   #titulo1, #titulo2{
     font-size: 15vh;
     text-align: center;
-    margin-bottom: 5%;
+
+    margin: 0;
+
+    position: relative;
+    left: 5%;
+
+    width: 75%;
   }
   #titulo1, #titulo5{
     letter-spacing: -2px;
@@ -216,16 +230,38 @@ footer{
   #memb1, #memb2, #memb3, #memb4, #memb5, #memb6{
     text-align: center;
     border-radius: 15%;
-    border-style: solid;
     width: 30%;
     height: 80%;
     margin-left: 10px;
     margin-right: 10px;
+
+    box-shadow: 16px 16px 16px #e6e6e6;
+  }
+  .texto{
+    width: 75%;
+  }
+  #txts-prod, #txts-intro{
+    position: relative;
+    left: 5%;
   }
   #texto1, #texto2, #texto3, #texto4, #texto5, #texto6, #texto7{
     font-family: 'Lato';
     font-size: 2.5vh;
     font-weight: lighter;
+  }
+  #texto1, #texto2, #texto3, #texto4{
+    text-align: justify;
+  }
+  #texto7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #paragrafo1, #paragrafo2{
+    margin: 0;
+  }
+  #paragrafo2{
+    margin-top: 1vh;
   }
   #btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7{
     border: none;    
@@ -263,7 +299,7 @@ footer{
   #btn2, #btn3, #btn4, #btn5, #btn6{
     /* width: 15%; */
 
-    height: 100%;
+    height: 35%;
 
     border-style: solid;
     border-width: 0.1px;
